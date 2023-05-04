@@ -44,18 +44,46 @@ public class CalculadoraSimples{
             }
         }
                 System.out.println("\n\t\t\t -- Subtração -- \n");
-            } else if(op == 3){SubtractionExample {
-             void main(String[] args) {
-                   int num1 = 10;
-                   int num2 = 5;
-                   int result = num1 - num2;
-                   System.out.println("Subtraction result is: " + result);
-                }
-             }
-                System.out.println("Forte abraços!");
-            }else{
-                System.out.println("Opção" + op + "incorreta!");
-            }
+            } else if(op == 3) //Entrada
+            System.out.println("\n\t\t\t -- Subtração --\n");
+            System.out.println("Digite o primeiro número: ");
+            n1 = entrada.nextInt();
+            System.out.println("Digite o segundo número: ");
+            n2 = entrada.nextInt();
+
+            //Processamento
+            total = n1 - n2;
+
+            //Saida
+            System.out.println("O resultado da subtração é:" + total);
+        } else if(op == 3){
+            //Entrada 
+            System.out.println("\n\t\t\t -- Multiplicação --\n");
+            System.out.println("Digite o primeiro número: ");
+            n1 = entrada.nextInt();
+            System.out.println("Digite o segundo número: ");
+            n2 = entrada.nextInt();
+
+            //Processamento 
+            total = n1 * n2;
+
+            //Saída 
+            System.out.println("O resultado da subtração é:" + total);
+        } else if(op == 4){
+             //Entrada 
+             System.out.println("\n\t\t\t -- Divisão --\n");
+             System.out.println("Digite o primeiro número: ");
+             n1 = entrada.nextInt();
+             System.out.println("Digite o segundo número: ");
+             n2 = entrada.nextInt();
+
+             //Processamento 
+             total = n1 / n2;
+
+             //Saída 
+             System.out.println("O resultado da subtração é:" + total);
+            } else if(op == 5){
+
             
         }while(op!=3);
 
