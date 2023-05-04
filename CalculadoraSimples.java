@@ -40,7 +40,7 @@ public class CalculadoraSimples{
                 total = n1 - n2;
                 
                 // Exibe o resultado
-                System.out.println("A soma dos números é: " + total);
+                System.out.println("A diferença entre " + n1 + " e " + n2 + " é " + total);
                 
             } else if(op == 3){
                 System.out.println("Forte abraços!");
