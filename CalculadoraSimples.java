@@ -52,7 +52,7 @@ public class CalculadoraSimples{
                    System.out.println("Subtraction result is: " + result);
                 }
              }
-                System.out.println("Forte abraço!");
+                System.out.println("Forte abraços!");
             }else{
                 System.out.println("Opção" + op + "incorreta!");
             }
