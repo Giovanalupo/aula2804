@@ -22,36 +22,27 @@ public class CalculadoraSimples{
 
             if(op == 1){
                 System.out.println("\n\t\t\t -- Soma --\n"); 
-            } else if(op == 2){ // Cria um objeto Scanner para ler a entrada do usuário
-                Scanner scanner = new Scanner(System.in);
+
+            } else if(op == 2){
+
+                System.out.println("\n\t\t\t -- Subtração --\n");
+                
                 
                 // Solicita o primeiro número
                 System.out.print("Digite o primeiro número: ");
-                int numero1 = scanner.nextInt();
+                n1 = entrada.nextInt();
                 
                 // Solicita o segundo número
                 System.out.print("Digite o segundo número: ");
-                int numero2 = scanner.nextInt();
+                n2 = entrada.nextInt();
                 
                 // Realiza a soma
-                int resultado = numero1 + numero2;
+                total = n1 - n2;
                 
                 // Exibe o resultado
-                System.out.println("A soma dos números é: " + resultado);
+                System.out.println("A soma dos números é: " + total);
                 
-                // Fecha o objeto Scanner
-                scanner.close();
-            }
-        }
-                System.out.println("\n\t\t\t -- Subtração -- \n");
-            } else if(op == 3){SubtractionExample {
-             void main(String[] args) {
-                   int num1 = 10;
-                   int num2 = 5;
-                   int result = num1 - num2;
-                   System.out.println("Subtraction result is: " + result);
-                }
-             }
+            } else if(op == 3){
                 System.out.println("Forte abraços!");
             }else{
                 System.out.println("Opção" + op + "incorreta!");
