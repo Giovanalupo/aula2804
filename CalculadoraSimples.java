@@ -33,4 +33,26 @@ public class CalculadoraSimples{
         }while(op!=3);
 
     }
- }
+    public class Soma {
+        public static void main(String[] args) {
+            // Cria um objeto Scanner para ler a entrada do usuário
+            Scanner scanner = new Scanner(System.in);
+            
+            // Solicita o primeiro número
+            System.out.print("Digite o primeiro número: ");
+            int numero1 = scanner.nextInt();
+            
+            // Solicita o segundo número
+            System.out.print("Digite o segundo número: ");
+            int numero2 = scanner.nextInt();
+            
+            // Realiza a soma
+            int resultado = numero1 + numero2;
+            
+            // Exibe o resultado
+            System.out.println("A soma dos números é: " + resultado);
+            
+            // Fecha o objeto Scanner
+            scanner.close();
+        }
+}
