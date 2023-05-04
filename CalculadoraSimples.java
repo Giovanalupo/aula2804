@@ -24,7 +24,14 @@ public class CalculadoraSimples{
                 System.out.println("\n\t\t\t -- Soma --\n"); 
             } else if(op == 2){
                 System.out.println("\n\t\t\t -- Subtração -- \n");
-            } else if(op == 3){
+            } else if(op == 3){SubtractionExample {
+             void main(String[] args) {
+                   int num1 = 10;
+                   int num2 = 5;
+                   int result = num1 - num2;
+                   System.out.println("Subtraction result is: " + result);
+                }
+             }
                 System.out.println("Forte abraço!");
             }else{
                 System.out.println("Opção" + op + "incorreta!");
